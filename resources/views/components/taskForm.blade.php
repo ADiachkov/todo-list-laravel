@@ -8,6 +8,7 @@
 {{ Form::label('due_date', 'Due date', ['class' => 'control-label mt-3']) }}
 {{ Form::date('due_date', null, ['class' => 'form-control'])}}
 
+
 <div class="row justify-content-center mt-3">
     <div class="col-sm-4">
         <a href='{{route('task.index')}}' class='btn btn-block btn-secondary' >Back to tasks</a>

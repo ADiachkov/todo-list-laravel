@@ -17,5 +17,4 @@ class Task extends Model {
 
     //define the table
     protected $table = 'tasks';
-
 }
